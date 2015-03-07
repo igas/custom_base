@@ -27,6 +27,7 @@ defmodule CustomBase.Mixfile do
 
   defp package do
     [contributors: ["Igor Kapkov"],
-     files: ["lib", "mix.exs", "README.md"],
+     files: ["lib", "mix.exs", "README.md", "LICENSE"],
+     licenses: ["MIT"],
      links: %{"Github" => "https://github.com/igas/custom_base"}]
 end

@@ -1,4 +1,4 @@
-# CustomBase
+# CustomBase [![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)
 
 CustomBase allow you to make custom base conversion in Elixir.
 
@@ -81,3 +81,7 @@ defmodule Base12 do
   def decode!(binary)
 end
 ```
+
+## [License](https://github.com/igas/custom_base/blob/master/LICENSE)
+
+Released under the MIT License.
