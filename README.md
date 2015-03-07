@@ -51,3 +51,33 @@ iex> Base12.decode("16")
 iex> Base12.decode("AB")
 131
 ```
+
+## Specs & Docs
+
+All specs included by this library, if you want to provide your documentation,
+add it after `use` call, like this:
+
+```
+defmodule Base12 do
+  use CustomBase, '0123456789AB'
+
+  @moduledoc """
+  Your module docs.
+  """
+
+  @doc """
+  Documentation for encode/1.
+  """
+  def encode(integer)
+
+  @doc """
+  Documentation for decode/1.
+  """
+  def decode(binary)
+
+  @doc """
+  Documentation for decode!/1.
+  """
+  def decode!(binary)
+end
+```
