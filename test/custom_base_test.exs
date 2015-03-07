@@ -13,8 +13,14 @@ defmodule CustomBaseTest do
   end
 
   test "decode/1" do
-    assert decode("c") == 2
-    assert decode("i") == 8
-    assert decode("gg") == 66
+    assert decode("c") == {:ok, 2}
+    assert decode("i") == {:ok, 8}
+    assert decode("gg") == {:ok, 66}
+  end
+
+  test "decode!/1" do
+    assert decode!("c") == 2
+    assert decode!("i") == 8
+    assert decode!("gg") == 66
   end
 end

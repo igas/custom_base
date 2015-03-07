@@ -1,4 +1,4 @@
-# CustomBase [![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)
+# CustomBase [![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)[![Build Status](https://img.shields.io/travis/igas/custom_base.svg?style=flat-square)](https://travis-ci.org/igas/custom_base)
 
 CustomBase allow you to make custom base conversion in Elixir.
 

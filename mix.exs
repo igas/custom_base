@@ -30,4 +30,5 @@ defmodule CustomBase.Mixfile do
      files: ["lib", "mix.exs", "README.md", "LICENSE"],
      licenses: ["MIT"],
      links: %{"Github" => "https://github.com/igas/custom_base"}]
+  end
 end
