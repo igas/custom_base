@@ -1,4 +1,6 @@
-# CustomBase [![Version](https://img.shields.io/hexpm/v/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)[![Build Status](https://img.shields.io/travis/igas/custom_base.svg?style=flat-square)](https://travis-ci.org/igas/custom_base)[![Issues](https://img.shields.io/github/issues/igas/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/issues)[![Downloads](https://img.shields.io/hexpm/dt/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![Donation](https://img.shields.io/gratipay/igas.svg?style=flat-square)](https://gratipay.com/igas/)
+# CustomBase
+
+[![Version](https://img.shields.io/hexpm/v/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)[![Build Status](https://img.shields.io/travis/igas/custom_base.svg?style=flat-square)](https://travis-ci.org/igas/custom_base)[![Issues](https://img.shields.io/github/issues/igas/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/issues)[![Downloads](https://img.shields.io/hexpm/dt/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![Donation](https://img.shields.io/gratipay/igas.svg?style=flat-square)](https://gratipay.com/igas/)
 
 CustomBase allow you to make custom base conversion in Elixir.
 
