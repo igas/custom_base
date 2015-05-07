@@ -3,15 +3,7 @@ otp_release:
   - 17.0
   - 17.1
   - 17.3
-before_install:
-  - wget -O elixir.zip $ELIXIR_VER
-  - unzip -d elixir elixir.zip
-  - export PATH="$PATH:$PWD/elixir/bin"
-  - mix local.hex --force
-script: mix test
-env:
-  - ELIXIR_VER=http://s3.hex.pm/builds/elixir/v1.0.3.zip
-  - ELIXIR_VER=https://github.com/elixir-lang/elixir/archive/master.zip
+  - 17.4
 notifications:
   recipients:
     - igasgeek@me.com
