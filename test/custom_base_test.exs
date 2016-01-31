@@ -2,6 +2,10 @@ defmodule BaseABCDEFGHIJ do
   use CustomBase, 'abcdefghij'
 end
 
+defmodule HexBase do
+  use CustomBase, '0123456789abcdef'
+end
+
 defmodule CustomBaseTest do
   use ExUnit.Case
   import BaseABCDEFGHIJ
@@ -22,5 +26,14 @@ defmodule CustomBaseTest do
     assert decode!("c") == 2
     assert decode!("i") == 8
     assert decode!("gg") == 66
+  end
+
+  # This test will fail if :math.pow overflows
+  test "pow overflow" do
+    int = 489732498728927498273432
+    str = "67b473b32ffa144f0298" # Checked with WolframAlpha
+
+    assert str == HexBase.encode(int)
+    assert int == HexBase.decode!(str)
   end
 end
