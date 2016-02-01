@@ -6,7 +6,7 @@ CustomBase allow you to make custom base conversion in Elixir.
 
 ## Installation
 
-Add `{ :custom_base, "~> 0.1.0" }` to `deps` function in your `mix.exs` file.
+Add `{ :custom_base, "~> 0.2" }` to `deps` function in your `mix.exs` file.
 
 After you are done, run `mix deps.get` in your shell to fetch and compile CustomBase.
 

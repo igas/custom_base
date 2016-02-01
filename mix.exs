@@ -1,16 +1,21 @@
 defmodule CustomBase.Mixfile do
   use Mix.Project
 
+  @version "0.2.0"
+  @github "https://github.com/igas/custom_base"
+
   def project do
     [app: :custom_base,
-     version: "0.1.0",
+     version: @version,
      elixir: "~> 1.0",
      name: "CustomBase",
      description: description,
      package: package,
-     source_url: "https://github.com/igas/custom_base",
-     docs: [readme: "README.md",
-            main: "README"],
+     source_url: @github,
+     docs: [extras: ["README.md"],
+            main: "README",
+            source_ref: "v#{@version}",
+            source_url: @github],
      deps: deps]
   end
 
@@ -29,6 +34,6 @@ defmodule CustomBase.Mixfile do
     [contributors: ["Igor Kapkov"],
      files: ["lib", "mix.exs", "README.md", "LICENSE"],
      licenses: ["MIT"],
-     links: %{"Github" => "https://github.com/igas/custom_base"}]
+     links: %{"Github" => @github}]
   end
 end
