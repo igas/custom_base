@@ -31,7 +31,7 @@ defmodule CustomBase.Mixfile do
   end
 
   defp package do
-    [contributors: ["Igor Kapkov"],
+    [maintainers: ["Igor Kapkov"],
      files: ["lib", "mix.exs", "README.md", "LICENSE"],
      licenses: ["MIT"],
      links: %{"Github" => @github}]
