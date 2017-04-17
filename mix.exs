@@ -22,8 +22,8 @@ defmodule CustomBase.Mixfile do
   def application, do: []
 
   defp deps do
-    [{:ex_doc, "~> 0.11", only: :dev},
-     {:earmark, "~> 0.2", only: :dev}]
+    [{:ex_doc, "~> 0.15", only: :dev},
+     {:earmark, "~> 1.2", only: :dev}]
   end
 
   defp description do
