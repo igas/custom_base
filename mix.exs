@@ -13,7 +13,7 @@ defmodule CustomBase.Mixfile do
      package: package(),
      source_url: @github,
      docs: [extras: ["README.md"],
-            main: "README",
+            main: "readme",
             source_ref: "v#{@version}",
             source_url: @github],
      deps: deps()]
