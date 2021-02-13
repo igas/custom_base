@@ -22,19 +22,19 @@ defmodule CustomBase.Mixfile do
 
   defp docs do
     [
-      extras: ["README.md"],
+      extras: ["CHANGELOG.md", "README.md"],
       main: "readme",
       name: "custom_base",
       canonical: "https://hexdocs.pm/custom_base",
       source_ref: "v#{@version}",
-      source_url: @github
+      source_url: @github,
+      api_reference: false
     ]
   end
 
   defp deps do
     [
-      {:ex_doc, "~> 0.15", only: :dev},
-      {:earmark, "~> 1.2", only: :dev}
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
@@ -45,9 +45,12 @@ defmodule CustomBase.Mixfile do
   defp package do
     [
       maintainers: ["Igor Kapkov"],
-      files: ["lib", "mix.exs", "README.md", "LICENSE"],
+      files: ["lib", "mix.exs", "CHANGELOG.md", "README.md", "LICENSE"],
       licenses: ["MIT"],
-      links: %{"Github" => @github}
+      links: %{
+        "Changelog" => "https://hexdocs.pm/custom_base/changelog.html",
+        "GitHub" => @github
+      }
     ]
   end
 end
