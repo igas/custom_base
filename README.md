@@ -1,16 +1,21 @@
 # CustomBase
 
-[![Version](https://img.shields.io/hexpm/v/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![License](https://img.shields.io/hexpm/l/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/blob/master/LICENSE)[![Build Status](https://img.shields.io/travis/igas/custom_base.svg?style=flat-square)](https://travis-ci.org/igas/custom_base)[![Issues](https://img.shields.io/github/issues/igas/custom_base.svg?style=flat-square)](https://github.com/igas/custom_base/issues)[![Downloads](https://img.shields.io/hexpm/dt/custom_base.svg?style=flat-square)](https://hex.pm/packages/custom_base)[![Donation](https://img.shields.io/gratipay/igas.svg?style=flat-square)](https://gratipay.com/igas/)
+[![Test](https://github.com/igas/custom_base/workflows/Test/badge.svg)](https://github.com/igas/custom_base/actions?query=workflow%3ATest)
+[![Module Version](https://img.shields.io/hexpm/v/custom_base.svg)](https://hex.pm/packages/custom_base)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/custom_base/)
+[![Total Download](https://img.shields.io/hexpm/dt/custom_base.svg)](https://hex.pm/packages/custom_base)
+[![License](https://img.shields.io/hexpm/l/custom_base.svg)](https://github.com/igas/custom_base/blob/main/LICENSE)
+[![Last Updated](https://img.shields.io/github/last-commit/igas/custom_base.svg)](https://github.com/igas/custom_base/commits/main)
 
 CustomBase allow you to make custom base conversion in Elixir.
 
 ## Installation
 
-Add `{ :custom_base, "~> 0.2" }` to `deps` function in your `mix.exs` file.
+Add `{:custom_base, "~> 0.2"}` to `deps` function in your `mix.exs` file.
 
 After you are done, run `mix deps.get` in your shell to fetch and compile CustomBase.
 
-## Example
+## Examples
 
 Lets make `Base12` module with conversion described below.
 
@@ -84,6 +89,9 @@ defmodule Base12 do
 end
 ```
 
-## [License](https://github.com/igas/custom_base/blob/master/LICENSE)
+## License
 
-Released under the MIT License.
+Copyright (c) 2015 Igor Kapkov
+
+This library is MIT licensed. See the [LICENSE](https://github.com/igas/custom_base/blob/main/LICENSE)
+for details.

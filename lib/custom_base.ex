@@ -3,9 +3,9 @@ defmodule CustomBase do
 
   defmodule Pow do
     @moduledoc false
-    # This is an integer-only implementation of pow
+    # This is an integer-only implementation of pow.
     # It avoids issues where the erlang :math.pow overflows on a float
-    # but yet doesn't raise any errors
+    # but yet doesn't raise any errors.
 
     require Integer
 
@@ -56,6 +56,7 @@ defmodule CustomBase do
       defp decode([last], step) do
         decode_char(last) * Pow.pow(unquote(length(alphabet)), step)
       end
+
       defp decode([head|tail], step) do
         decode_char(head) * Pow.pow(unquote(length(alphabet)), step) + decode(tail, step + 1)
       end
