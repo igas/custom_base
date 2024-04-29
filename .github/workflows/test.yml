@@ -22,7 +22,7 @@ jobs:
             otp: '26.x'
     steps:
       - uses: actions/checkout@v2.3.2
-      - uses: actions/setup-elixir@v1.5.0
+      - uses: erlef/setup-beam@v1.17.5
         with:
           otp-version: ${{ matrix.otp }}
           elixir-version: ${{ matrix.elixir }}
